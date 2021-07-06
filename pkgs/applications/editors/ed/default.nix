@@ -8,7 +8,7 @@
 
 stdenv.mkDerivation (rec {
   pname = "ed";
-  version = "1.17";
+  version = "1.16";
 
   src = fetchurl {
     url = "mirror://gnu/ed/${pname}-${version}.tar.lz";
