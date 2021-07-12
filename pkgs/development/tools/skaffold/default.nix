@@ -2,7 +2,7 @@
 
 buildGoModule rec {
   pname = "skaffold";
-  version = "1.20.0";
+  version = "1.27.0";
 
   src = fetchFromGitHub {
     owner = "GoogleContainerTools";
